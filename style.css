@@ -1,0 +1,488 @@
+
+/* ----------------------------------------------[Desktop View] */
+
+
+
+
+@media (max-width: 3840px){
+
+    @keyframes slideLeft {
+        from {
+            transform: translateX(-250px);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .infoTitle{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    .infoTitle2{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    .infoTitle3{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    body{
+        background-color: #070F2B;
+    }
+    .hiddenContainer{
+        /* border: solid teal; */
+        display: flex;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 25%;
+        align-items: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    .optContainer{
+        /* border: solid blue; */
+        display: flex;
+        justify-content:space-evenly;
+        width:25%;
+        align-items: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    .joinBtn{
+        padding: 6px 18px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: large;
+    }
+    .joinBtn {
+        transition-duration: 0.4s;
+    }
+    .joinBtn:hover {
+        background-color: #0452aa; 
+        color: white;
+        transform: translateY(-10px);
+    }
+
+    .shopBtn{
+        padding: 6px 18px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: large;
+    }
+    .shopBtn {
+        transition-duration: 0.4s;
+    }
+      
+    .shopBtn:hover {
+        background-color: #0452aa; 
+        color: white;
+        transform: translateY(-10px);
+    }
+
+/*-----sectionOne-------*/
+    .sectionOne{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: flex;
+        box-shadow: rgba(199, 0, 0, 0.226) 0px 54px 55px, rgba(199, 0, 0, 0.25) 0px -12px 30px, rgba(199, 0, 0, 0.25) 0px 4px 6px, rgba(199, 0, 0, 0.336) 0px 12px 13px, rgba(199, 0, 0, 0.308) 0px -3px 5px;
+        border-radius: 6px;
+    }
+    .imgOne{
+        width: 50%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox{
+        align-items: center;
+        text-align: center;
+        margin-left: 5%;
+        font-family: sans-serif;
+        color: white;
+        line-height: 2.8;
+    }
+    .des{
+        color: white;
+    }
+
+/*-----sectionTwo-------*/
+
+.sectionTwo{
+    /* border: solid red; */
+    background-color: #1B1A55;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    box-shadow: rgba(199, 0, 0, 0.226) 0px 54px 55px, rgba(199, 0, 0, 0.25) 0px -12px 30px, rgba(199, 0, 0, 0.25) 0px 4px 6px, rgba(199, 0, 0, 0.336) 0px 12px 13px, rgba(199, 0, 0, 0.308) 0px -3px 5px;
+    border-radius: 6px;
+}
+.imgTwo{
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.infoBox2{
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    font-family: sans-serif;
+    color: white;
+    line-height: 2.8;
+}
+.des2{
+    color: white;
+}
+
+/*-----sectionThree-------*/
+
+.sectionThree{
+    /* border: solid red; */
+    background-color: #1B1A55;
+    margin: 2em;
+    padding: 1em;
+    display: flex;
+    box-shadow: rgba(199, 0, 0, 0.226) 0px 54px 55px, rgba(199, 0, 0, 0.25) 0px -12px 30px, rgba(199, 0, 0, 0.25) 0px 4px 6px, rgba(199, 0, 0, 0.336) 0px 12px 13px, rgba(199, 0, 0, 0.308) 0px -3px 5px;
+    border-radius: 6px;
+}
+.imgThree{
+    width: 50%;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.infoBox3{
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    font-family: sans-serif;
+    color: white;
+    line-height: 2.8;
+}
+.des3{
+    color: white;
+
+}
+
+
+ /* --------------------------------------------[End Of Desktop] */
+
+
+
+
+ /* ----------------------------------[Mid View - Ipad / Tablet] */
+
+ @media (max-width: 1080px){
+
+    @keyframes slideLeft {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .infoTitle{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    .infoTitle2{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    .infoTitle3{
+        animation: slideLeft 1s ease-in 1s 1 normal ;
+    }
+
+    body{
+        background-color: #070F2B;
+    }
+    .hiddenContainer{
+        /* border: solid teal; */
+        display: flex;
+        justify-content: space-evenly;
+        height: 8vh;
+        width: 25%;
+        align-items: center;
+    }
+    .optContainer{
+        /* border: solid blue; */
+        display: flex;
+        justify-content:space-evenly;
+        width:25%;
+        align-items: center;
+    }
+    .sectionOne{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: flex;
+        border-radius: 6px;
+    }
+
+.sectionOne:hover{
+    transform: translateY(-10px);
+}
+
+    .imgOne{
+        width: 50%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox{
+        display: flex;
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    .des{
+        display: none;
+        color: white;
+    }
+    .joinBtn{
+        padding: 6px 18px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: large;
+    }
+    .joinBtn:hover {
+        background-color: #0452aa; 
+        color: white;
+        transform: translateY(-10px);
+    }
+    .shopBtn{
+        padding: 6px 18px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: large;
+    }
+    .shopBtn:hover {
+        background-color: #0452aa; 
+        color: white;
+        transform: translateY(-10px);
+    }
+    
+    /*-----sectionOTwo-------*/
+
+    .sectionTwo{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: flex;
+        border-radius: 6px;
+    }
+
+    .sectionTwo:hover{
+        transform: translateY(-10px);
+    }
+    
+    .imgOne2{
+        width: 50%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox2{
+        display: flex;
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    .des2{
+        display: none;
+        color: white;
+    }
+
+    /*-----sectionThree-------*/
+    .sectionThree{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: flex;
+        border-radius: 6px;
+    }
+    .sectionThree:hover{
+        transform: translateY(-10px);
+    }
+    .imgThree{
+        width: 50%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox3{
+        display: flex;
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+    }
+    .des3{
+        display: none;
+        color: white;
+    }
+ }
+
+ /* --------------------------------------------[End Of MidView] */
+
+
+
+
+/* ------------------------------------------------[Mobile View] */
+
+@media (max-width: 780px){
+    body{
+        background-color: #070F2B;
+    }
+    .hiddenContainer{
+        /* border: solid teal; */
+        display: none;
+        /* justify-content: space-evenly;
+        height: 8vh;
+        width: 25%;
+        align-items: center; */
+    }
+    .optContainer{
+        /* border: solid blue; */
+        display: flex;
+        justify-content:space-evenly;
+        width:50%;
+        align-items: center;
+    }
+    .sectionOne{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: block;
+        border-radius: 6px;
+    }
+    .imgOne{
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox{
+        display: block;
+        align-items: center;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .des{
+        display: none;
+    }
+    .joinBtn{
+        padding: 3px 9px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: small;
+    }
+    .shopBtn{
+        padding: 3px 9px;
+        border-radius: 10px;
+        color: white;
+        background-color: #1B1A55;
+        font-size: small;
+    }
+
+    /*-----sectionOTwo-------*/
+
+    .sectionTwo{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: block;
+        border-radius: 6px;
+    }
+    .imgTwo{
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox2{
+        display: block;
+        align-items: center;
+        text-align: center;
+        font-family: sans-serif;
+        
+    }
+    .des2{
+        display: none;
+        color: white;
+    }
+
+    /*-----sectionThree-------*/
+
+    .sectionThree{
+        /* border: solid red; */
+        background-color: #1B1A55;
+        margin: 2em;
+        padding: 1em;
+        display: block;
+        border-radius: 6px;
+    }
+    .imgThree{
+        width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    }
+    .infoBox3{
+        display: block;
+        align-items: center;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    .des3{
+        display: none;
+        color: white;
+    }
+}
+}
+
+/* ----------------------------------------------[End Of Mobile] */
+
+
+
+
+/* ----------General CSS*/
+
+.navContainer{
+    /* border: solid black; */
+    border-width: 1px;
+    background-color: #1B1A55;
+    box-shadow: rgba(199, 0, 0, 0.171) 0px 54px 55px, rgba(199, 0, 0, 0.185) 0px -12px 30px, rgba(199, 0, 0, 0.25) 0px 4px 6px, rgba(199, 0, 0, 0.171) 0px 12px 13px, rgba(199, 0, 0, 0.103) 0px -3px 5px;
+    border-radius: 6px;
+    height: 8vh;
+    padding: 10px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    /* border:solid green; */
+    height:8vh;
+    width:8vw;
+    align-items: center;
+    border-radius: 360%;
+}
+
+.iconContainer{
+    /* border:solid purple; */
+    background-color: #515faa67;
+    border-radius: 6px;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
