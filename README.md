@@ -18,6 +18,7 @@ This project is a rework of an original assignment done at the beginning of the 
 - Detailed comments and notes
 - Responsive design
 - Cross-browser compatibility
+- Simple animations
 - Focus on media query sizing to fit desktop, tablet, and phone views
 
 ## Usage
